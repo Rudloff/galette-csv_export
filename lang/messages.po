@@ -1,0 +1,8 @@
+#: ../templates/default/menu.tpl:7
+msgid "Export contributions"
+msgstr ""
+
+#: ../templates/default/menu.tpl:2
+msgid "CSV Exports"
+msgstr ""
+

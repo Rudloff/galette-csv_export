@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pierre Rudloff <contact@rudloff.pro>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../templates/default/menu.tpl:7
+msgid "Export contributions"
+msgstr "Exporter les cotisations"
+
+#: ../templates/default/menu.tpl:2
+msgid "CSV Exports"
+msgstr "Exports CSV"
