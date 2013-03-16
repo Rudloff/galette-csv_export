@@ -13,14 +13,8 @@
  * 
  * */
 use Galette\IO\Csv;
-use Galette\Filters\MembersList;
-use Galette\Entity\FieldsConfig;
-use Galette\Entity\Adherent;
-use Galette\Repository\Members;
 
-//définition de la constante obligatoire
 define('GALETTE_BASE_PATH', '../../');
-//inclusion du fichier principal de galette
 require_once GALETTE_BASE_PATH . 'includes/galette.inc.php';
 if ( $login->isAdmin() || $login->isStaff() ) {
     header('Content-Type: text/csv');
@@ -48,7 +42,7 @@ if ( $login->isAdmin() || $login->isStaff() ) {
     foreach ($result as &$line) {
         $line['montant_cotis']=str_replace('.', ',', $line['montant_cotis']);
     }
-    $csv->export($result, $separator, $quote, $title);
+
     echo(
         $csv->export(
             $result, $csv->DEFAULT_SEPARATOR, $csv->DEFAULT_QUOTE, $titles
